@@ -111,6 +111,9 @@ export default {
             this.$emit("delete:contact", this.contactLocal.id);
         },
     },
+    created() {
+        console.log(this.contact);
+    },
 };
 </script>
 <style scoped>

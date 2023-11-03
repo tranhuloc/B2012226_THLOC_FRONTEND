@@ -23,13 +23,24 @@ a,
 
 @media (min-width: 1024px) {
   body {
-    display: flex;
     place-items: center;
   }
 
   #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+    display: block;
+    width: 100%;
+  }
+
+  .navbar {
+    width: 100%;
+    height: 50px;
+  }
+
+  .input-group {
+    margin-left: 255px;
+  }
+
+  .mt-3 {
+    margin-left: 255px;
   }
 }
